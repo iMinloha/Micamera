@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+    <link rel="stylesheet" href="mdui/css/mdui.min.css">
+    <link rel="stylesheet" href="mdui/css/total.css">
+    <script src="mdui/js/mdui.min.js"></script>
+</head>
+<body>
+
+    <div class="mdui-container-fluid">
+        <div class="mdui-dialog" id="myinfo">
+            <div class="mdui-dialog-title">设备异常�?</div>
+            <div class="mdui-dialog-content">
+                <p>操作如下:</p>
+                <p>请检查Wifi是否已经连接,设备已经加载完成</p>
+                下载说明书了解设备操�?<a href="https://cdn.minloha.cn/file/%E4%BA%A7%E5%93%81%E8%AF%B4%E6%98%8E.pdf" download="产品说明�?.pdf">产品说明�?.pdf</a>
+            </div>
+            <div class="mdui-dialog-actions">
+                <button class="mdui-btn mdui-ripple">我知道了</button>
+            </div>
+        </div>
+    </div>
+
+    <script>new mdui.Dialog('#myinfo').open();</script>
+</body>
+</html>

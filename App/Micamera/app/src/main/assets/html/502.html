@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+    <link rel="stylesheet" href="mdui/css/mdui.min.css">
+    <link rel="stylesheet" href="mdui/css/total.css">
+    <script src="mdui/js/mdui.min.js"></script>
+</head>
+<body>
+
+    <div class="mdui-container-fluid">
+        <div class="mdui-dialog" id="myinfo">
+            <div class="mdui-dialog-title">没有连接到设备！</div>
+            <div class="mdui-dialog-content">
+                <p>操作如下:</p>
+                <p>打开Wifi连接界面,选择SSID为Micamera的wifi,密码为12341234</p>
+                <p>同时需要关闭:无网络自动断开连接</p>
+                下载说明书可以前往右侧链接！<a href="https://cdn.minloha.cn/file/%E4%BA%A7%E5%93%81%E8%AF%B4%E6%98%8E.pdf" download="产品说明书.pdf">产品说明书.pdf</a>
+            </div>
+            <div class="mdui-dialog-actions">
+                <button class="mdui-btn mdui-ripple">我知道了</button>
+            </div>
+        </div>
+    </div>
+
+    <script>new mdui.Dialog('#myinfo').open();</script>
+</body>
+</html>
